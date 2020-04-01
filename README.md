@@ -54,7 +54,7 @@ Copy included `.env.example` file to `.env` and fill it with your unique values:
 ```
 AIRTABLE_API_KEY=""
 AIRTABLE_BASE_ID=""
-AIRTABLE_TABLE_NAME=""
+AIRTABLE_TABLE_NAME="Destinations"
 ```
 
 You can find your API key and Base ID by clicking "Help" and then "API Documentation". Table name in the example is "Destinations" (case sensitive name).
