@@ -21,7 +21,6 @@
     "gatsby-plugin-manifest": "^2.4.1",
     "gatsby-plugin-modal-routing": "^1.1.0",
     "gatsby-plugin-postcss": "^2.3.0",
-    "gatsby-plugin-purgecss": "^4.0.1",
     "gatsby-plugin-react-helmet": "^3.3.0",
     "gatsby-plugin-sharp": "^2.6.0",
     "gatsby-source-airtable": "^2.1.1",

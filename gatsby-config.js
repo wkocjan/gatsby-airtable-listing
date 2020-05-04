@@ -73,14 +73,5 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-    {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        develop: false,
-        printRejected: false,
-        rejected: true,
-        tailwind: true,
-      },
-    },
   ],
 }
