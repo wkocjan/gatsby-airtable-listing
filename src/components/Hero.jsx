@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 import PropTypes from "prop-types"
 import React from "react"
 
-export const Hero = props => {
+export const Hero = (props) => {
   const { description, image, tag, title } = props
 
   return (
@@ -62,7 +62,7 @@ export const query = graphql`
       mobile: fixed(width: 768, height: 240, quality: 80, cropFocus: CENTER) {
         ...GatsbyImageSharpFixed_withWebp
       }
-      desktop: fixed(width: 1248, height: 280, quality: 85, cropFocus: SOUTH) {
+      desktop: fixed(width: 1496, height: 280, quality: 85, cropFocus: SOUTH) {
         ...GatsbyImageSharpFixed_withWebp
       }
     }
