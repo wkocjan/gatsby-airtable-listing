@@ -5,7 +5,7 @@ import { Feature, SiteMetadata } from "../components"
 import { useModal } from "../context"
 import { Layout } from "../layouts/Layout"
 
-export default props => {
+export default (props) => {
   const { data, location } = props
   const {
     country,

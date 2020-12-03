@@ -30,7 +30,7 @@ export const LayoutModal = ({ children, closeTo, navigation = {} }) => {
     })
   }
 
-  const keyboardNavigation = event => {
+  const keyboardNavigation = (event) => {
     switch (event.keyCode) {
       case 37:
         goPrevious()

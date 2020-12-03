@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Card } from "."
 
-export const Cards = props => {
+export const Cards = (props) => {
   const { nodes } = props
 
   return (
@@ -17,7 +17,7 @@ export const Cards = props => {
               {...item.data}
               navigation={{
                 current: i,
-                items: nodes.map(item => `/${item.data.slug}`),
+                items: nodes.map((item) => `/${item.data.slug}`),
               }}
             />
           </div>

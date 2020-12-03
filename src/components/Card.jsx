@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Feature } from "."
 
-export const Card = props => {
+export const Card = (props) => {
   const {
     country,
     image: {
