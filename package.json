@@ -7,8 +7,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -35,7 +33,9 @@
     "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "husky": "^4.3.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
   },
   "keywords": [
     "airtable",
@@ -47,5 +47,10 @@
   },
   "bugs": {
     "url": "https://github.com/wkocjan/gatsby-airtable-listing/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx pretty-quick --staged"
+    }
   }
 }
