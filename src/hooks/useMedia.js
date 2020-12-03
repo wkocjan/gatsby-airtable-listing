@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react"
 
 export function useMedia(queries, values, defaultValue) {
+  if (typeof window === "undefined") {
+    return
+  }
+
   const mediaQueryLists = queries.map((q) => window.matchMedia(q))
 
   const getValue = () => {
