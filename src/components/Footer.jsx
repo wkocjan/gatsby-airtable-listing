@@ -28,7 +28,7 @@ export const Footer = () => {
   `)
 
   return (
-    <footer className="bg-white">
+    <footer className="bg-white dark:bg-transparent">
       <div className="container pt-12 pb-12 flex flex-wrap text-center lg:flex-row-reverse lg:justify-between lg:items-center">
         <ul className="w-full lg:w-auto">
           <FooterIconLink
@@ -52,7 +52,7 @@ export const Footer = () => {
             label="E-mail"
           />
         </ul>
-        <div className="w-full lg:w-auto pt-6 lg:pt-0 text-blue-800 text-sm">
+        <div className="w-full lg:w-auto pt-6 lg:pt-0 text-blue-800 dark:text-blue-500 text-sm">
           &copy; 2020 All rights reserved.
         </div>
       </div>
@@ -72,7 +72,7 @@ const FooterIconLink = ({ href, label, icon: Icon }) => {
     <li className="inline-block px-2">
       <a
         {...linkParams}
-        className="inline-flex h-8 w-8 border border-blue-800 text-blue-800 rounded-full items-center justify-center transition-colors duration-200 hover:text-white hover:bg-blue-400 hover:border-blue-400"
+        className="inline-flex h-8 w-8 border border-blue-800 text-blue-800 dark:text-blue-500 dark:border-blue-500 rounded-full items-center justify-center transition-colors duration-200 hover:text-white hover:bg-blue-400 hover:border-blue-400 dark:hover:bg-blue-600 dark:hover:border-blue-600 dark:hover:text-blue-200"
       >
         <span className="sr-only">{label}</span>
         <Icon className="w-3 h-3 fill-current" />

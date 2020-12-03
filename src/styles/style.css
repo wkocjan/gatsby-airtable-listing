@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply bg-gray-100 font-sans antialiased;
+  @apply font-sans antialiased;
 }
 
 body.ReactModal__Body--open > div[aria-hidden="true"] {

@@ -26,10 +26,10 @@ export default (props) => {
       <SiteMetadata title={name} description={summary} image={cover.url} />
       <article className={modal && "max-h-80vh md:max-h-90vh overflow-auto"}>
         <div className={modal ? "p-4 lg:p-8" : "container py-8"}>
-          <h1 className="text-2xl lg:text-3xl text-blue-500 font-bold leading-tight">
+          <h1 className="text-2xl lg:text-3xl text-blue-500 dark:text-blue-400 font-bold leading-tight">
             {name}
           </h1>
-          <p className="text-base lg:text-lg text-blue-800 font-medium mb-4">
+          <p className="text-base lg:text-lg text-blue-800 dark:text-blue-500 font-medium mb-4">
             {summary}
           </p>
           <div className="flex flex-wrap">
@@ -40,7 +40,7 @@ export default (props) => {
               <Feature label="Country" value={country} />
               <Feature label="What to see?" value={tags} />
               <Feature label="More info" value={url} />
-              <p className="mt-4 whitespace-pre-line text-sm lg:text-base leading-normal text-blue-900">
+              <p className="mt-4 whitespace-pre-line text-sm lg:text-base leading-normal text-blue-900 dark:text-blue-600">
                 {description}
               </p>
             </div>

@@ -18,6 +18,7 @@ Live demo is available at: https://gatsby-airtable-listing.netlify.com/
 - Uses utility-first [TailwindCSS](https://tailwindcss.com/) framework
 - Responsive design (desktop / mobile)
 - Generic newsletter form
+- Dark Mode support 🌙
 
 ## 🚀 Getting started
 
@@ -60,6 +61,12 @@ AIRTABLE_TABLE_NAME="Destinations"
 You can find your API key and Base ID by clicking "Help" and then "API Documentation". Table name in the example is "Destinations" (case sensitive name).
 
 You're now ready to go. If you want to customize the Airtable base, please refer to [`gatsby-source-airtable` plugin documentation](https://www.gatsbyjs.org/packages/gatsby-source-airtable/).
+
+### Data update
+
+The data from Airtable **does not** update automatically, even when you're running the `develop` process.
+
+If you modified any data in your Airtable base, please be sure to restart the development process, so the new data can be downloaded.
 
 ## Crucial Commands
 

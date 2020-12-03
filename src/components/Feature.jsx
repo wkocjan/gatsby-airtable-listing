@@ -10,7 +10,7 @@ export const Feature = ({ label, value }) => {
             href={value}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:text-blue-700 transition-colors duration-200"
+            className="text-blue-500 dark:text-blue-400 hover:text-blue-700 dark:text-blue-300 transition-colors duration-200"
           >
             {value}
           </a>
@@ -29,11 +29,13 @@ export const Feature = ({ label, value }) => {
 
   return (
     <>
-      <h4 className="text-blue-800 uppercase text-xxs tracking-wide font-medium pb-px">
+      <h4 className="text-blue-800 dark:text-blue-400 uppercase text-xxs tracking-wide font-medium pb-px">
         {label}
       </h4>
 
-      <div className={`font-medium text-blue-800 text-base leading-loose mb-4`}>
+      <div
+        className={`font-medium text-blue-800 dark:text-blue-400 text-base leading-loose mb-4`}
+      >
         {value}
       </div>
     </>
