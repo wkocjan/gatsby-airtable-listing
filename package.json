@@ -1,7 +1,7 @@
 {
   "name": "gatsby-airtable-listing",
   "description": "Gatsby starter theme integrated with Airtable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Wojciech Kocjan <wojciech@kocjan.net>",
   "license": "MIT",
   "scripts": {
@@ -11,6 +11,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@headlessui/react": "^0.2.0",
     "autoprefixer": "^10.0.4",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
@@ -26,7 +27,6 @@
     "gatsby-transformer-sharp": "^2.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dark-mode-toggle": "^0.0.10",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.1.0",

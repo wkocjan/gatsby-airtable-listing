@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        gray: colors.blueGray,
+        gray: colors.trueGray,
         blue: colors.lightBlue,
       },
       fontSize: {

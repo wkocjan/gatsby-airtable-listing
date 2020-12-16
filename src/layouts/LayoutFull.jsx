@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import DarkModeToggle from "react-dark-mode-toggle"
-import { Footer, SignupForm } from "../components"
+import { DarkModeToggle, Footer, SignupForm } from "../components"
 import { useDarkMode } from "../hooks"
 
 export const LayoutFull = ({ children }) => {
@@ -17,18 +16,13 @@ export const LayoutFull = ({ children }) => {
             </Link>
 
             <div className="absolute top-0 right-0">
-              <DarkModeToggle
-                onChange={setIsDarkMode}
-                checked={isDarkMode}
-                size={64}
-                speed={1.75}
-              />
+              <DarkModeToggle onChange={setIsDarkMode} checked={isDarkMode} />
             </div>
           </div>
         </div>
       </header>
       {children}
-      <div className="bg-white dark:bg-transparent border-t border-b border-transparent dark:border-blue-800 py-8 lg:py-16 mt-8">
+      <div className="bg-white dark:bg-transparent border-t border-b border-transparent py-8 lg:py-16 mt-8">
         <div className="container">
           <SignupForm />
         </div>
