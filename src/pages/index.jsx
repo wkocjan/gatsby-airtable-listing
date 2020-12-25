@@ -8,15 +8,15 @@ export default ({ data }) => {
     <Layout>
       <SiteMetadata
         title="ALEX Construction Materials"
-        description="Check the most popular construction material from the best places in Titilagarh"
+        description="Providing Construction Material anywhere in India at right price. ✆ 9348210687"
         image={data.hero.url}
       />
 
       <Hero
         image={data.hero}
         tag="#alex, #construction-material"
-        title="ALEX Construction Materials"
-        description="Check the most popular construction material from the best places in Titilagarh"
+        title="Delivering Construction Materials anywhere in India"
+        description="Most popular construction materials at right price. ✆ 9348210687"
       />
 
       <Cards nodes={data.items.nodes} />

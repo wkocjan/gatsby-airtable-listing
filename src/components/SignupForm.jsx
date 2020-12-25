@@ -6,11 +6,10 @@ export const SignupForm = () => {
       <div className="flex flex-wrap lg:justify-between lg:items-center">
         <div>
           <h3 className="text-2xl lg:text-4xl font-bold text-blue-500 dark:text-blue-400 tracking-tight">
-            Sign up for our newsletter
+            ✆ 9348210687
           </h3>
           <p className="text-blue-800 dark:text-blue-500 font-medium text-base lg:text-lg pb-4 lg:pb-0 pt-1">
-            Every 2 weeks we'll send you a list of a popular and new
-            destinations.
+            10 am - 8 pm
           </p>
         </div>
         <div className="flex w-full md:w-1/2 lg:w-auto">

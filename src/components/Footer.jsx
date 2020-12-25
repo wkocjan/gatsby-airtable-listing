@@ -53,7 +53,7 @@ export const Footer = () => {
           />
         </ul>
         <div className="w-full lg:w-auto pt-6 lg:pt-0 text-blue-800 dark:text-blue-500 text-sm">
-          &copy; 2020 All rights reserved.
+          &copy; 2021 All rights reserved.
         </div>
       </div>
     </footer>
