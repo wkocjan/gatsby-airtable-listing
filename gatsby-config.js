@@ -9,7 +9,7 @@ module.exports = {
       twitter: "https://www.twitter.com",
     },
     locale: "en",
-    title: "Travel destinations",
+    title: "ALEX Construction Materials",
   },
   plugins: [
     {
@@ -62,8 +62,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Travel Destinations`,
-        short_name: `Travel Destinations`,
+        name: `ALEX Construction Materials`,
+        short_name: `ALEX Construction Materials`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#4299e1`,

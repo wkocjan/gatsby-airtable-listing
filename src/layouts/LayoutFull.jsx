@@ -12,7 +12,11 @@ export const LayoutFull = ({ children }) => {
         <div className="container text-center">
           <div className="relative">
             <Link to="/" className="inline-block">
-              <img alt="Logo" src="/logo.svg" />
+              <img
+                alt="Logo"
+                src="/logo.png"
+                className="rounded-xl h-32 w-32"
+              />
             </Link>
 
             <div className="absolute top-0 right-0">
